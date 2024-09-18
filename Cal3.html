@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Cal3.css">
+</head>
+<body>
+    <div class="calculator">
+        <input type="number" id="inputNumber" placeholder="Ingresa un número">
+        <button onclick="calculate('sqrt')">√x</button>
+        <button onclick="calculate('sin')">Sin</button>
+        <button onclick="calculate('cos')">Cos</button>
+        <button onclick="calculate('abs')">abs</button>
+        <button onclick="calculate('exp')">^</button>
+        <button onclick="calculate('percent')">%</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="window.location.href='https://www.google.com.mx/?hl=es'">Salir</button>
+        <div id="result"></div>
+    </div>
+    <script src="Cal3.js"></script>
+</body>
+</html>
